@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Full Stack DEV**
 
-- 🌱 I’m currently learning **MERN**
+- 🌱 I’m currently learning **React JS**
 
 - 👯 I’m looking to collaborate on **Projects and Open source**
 
