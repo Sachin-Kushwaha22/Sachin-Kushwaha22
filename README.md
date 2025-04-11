@@ -3,11 +3,11 @@
 
 - 🔭 I’m currently working on **Full Stack DEV**
 
-- 🌱 I’m currently learning **React JS**
+- 🌱 I’m currently learning **Backend Optimization**
 
 - 👯 I’m looking to collaborate on **Projects and Open source**
 
-- 💬 Ask me about **REACT,JS**
+- 💬 Ask me about **Full Stack Web Development ( MERN )**
 
 - 📫 How to reach me **sachin2219n@gmail.com**
 
