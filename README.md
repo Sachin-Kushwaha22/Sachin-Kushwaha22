@@ -19,10 +19,17 @@
 </div>
 
 
-<div align="center">
-  <img src="./assets/lanyard.svg" alt="Developer Badge" width="40%">
-  <img src="./assets/langs.svg" alt="Most Used Languages" width="60%">
-</div>
+<table width="100%">
+  <tr>
+    <td width="32%" valign="top" align="center">
+      <img src="./assets/lanyard.svg" width="100%">
+    </td>
+
+    <td width="68%" valign="top" align="center">
+      <img src="./assets/langs.svg" width="100%">
+    </td>
+  </tr>
+</table>
 
 <br>
 
