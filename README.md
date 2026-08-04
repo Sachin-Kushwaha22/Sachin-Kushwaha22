@@ -24,7 +24,6 @@
 <div align="center">
   <img src="./assets/achievements.svg" alt="Achievements" width="100%">
 </div>
-
 <br>
 
 <h2 align="center">About Me</h2>
