@@ -15,11 +15,11 @@
 <div align="center">
   <img src="./assets/langs.svg" alt="Most Used Languages" width="100%">
 </div>
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
 </div>
 
-<br>
+<br> -->
 
 <div align="center">
   <img src="./assets/achievements.svg" alt="Achievements" width="100%">
