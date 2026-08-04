@@ -21,10 +21,10 @@
 
 <table width="100%">
   <tr>
-    <td width="32%" valign="top" align="center">
+    <td width="40%" valign="top" align="center">
       <img src="./assets/lanyard.svg" width="100%">
     </td>
-    <td width="68%" valign="top" align="center">
+    <td width="60%" valign="top" align="center">
       <img src="./assets/langs.svg" width="100%">
     </td>
   </tr>
