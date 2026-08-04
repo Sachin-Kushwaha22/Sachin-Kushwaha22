@@ -119,7 +119,7 @@
       <rect x="60" y="142" width="740" height="32" rx="10" fill="#0F172A" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.15"/>
       <text x="82" y="164" class="icon">⭐</text>
       <text x="112" y="164" class="label">Total Stars</text>
-      <text x="778" y="164" class="value" text-anchor="end" fill="#FBBF24" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:0.95s;">0</text>
+      <text x="778" y="164" class="value" text-anchor="end" fill="#FBBF24" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:0.95s;">{{TOTAL_STARS}}</text>
     </g>
 
     <!-- Public Repositories -->
@@ -127,7 +127,7 @@
       <rect x="60" y="180" width="740" height="32" rx="10" fill="#0F172A" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.15"/>
       <text x="82" y="202" class="icon">📦</text>
       <text x="112" y="202" class="label">Public Repositories</text>
-      <text x="778" y="202" class="value" text-anchor="end" fill="#06B6D4" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.13s;">20</text>
+      <text x="778" y="202" class="value" text-anchor="end" fill="#06B6D4" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.13s;">{{TOTAL_REPOS}}</text>
     </g>
 
     <!-- Contribution Streak -->
@@ -143,7 +143,7 @@
       <rect x="60" y="256" width="740" height="32" rx="10" fill="#0F172A" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.15"/>
       <text x="82" y="278" class="icon">🤝</text>
       <text x="112" y="278" class="label">Pull Requests</text>
-      <text x="778" y="278" class="value" text-anchor="end" fill="#60A5FA" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.49s;">23</text>
+      <text x="778" y="278" class="value" text-anchor="end" fill="#60A5FA" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.49s;">{{TOTAL_PULL_REQUESTS}}</text>
     </g>
 
     <!-- Followers -->
@@ -151,7 +151,7 @@
       <rect x="60" y="294" width="740" height="32" rx="10" fill="#0F172A" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.15"/>
       <text x="82" y="316" class="icon">👥</text>
       <text x="112" y="316" class="label">Followers</text>
-      <text x="778" y="316" class="value" text-anchor="end" fill="#38BDF8" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.67s;">9</text>
+      <text x="778" y="316" class="value" text-anchor="end" fill="#38BDF8" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.67s;">{{TOTAL_FOLLOWERS}}</text>
     </g>
 
     <!-- Open Source Status -->
@@ -174,29 +174,29 @@
         <rect x="80" y="404" width="100" height="40" rx="20" fill="url(#goldGrad)" filter="url(#badgeGlow)"/>
       </g>
       <rect x="80" y="404" width="100" height="40" rx="20" fill="url(#goldGrad)"/>
-      <text x="130" y="429" class="levelText" text-anchor="middle">LEVEL 3</text>
+      <text x="130" y="429" class="levelText" text-anchor="middle">LEVEL {{ACCOUNT_LEVEL}}</text>
 
       <!-- XP labels -->
       <text x="200" y="405" class="stackLabel">XP PROGRESS</text>
-      <text x="778" y="407" class="xpText" text-anchor="end">550 / 1000 XP</text>
+      <text x="778" y="407" class="xpText" text-anchor="end">{{ACCOUNT_XP}} / {{NEXT_LEVEL}} XP</text>
 
       <!-- XP bar track -->
       <rect x="200" y="414" width="578" height="10" rx="5" fill="#0F172A" fill-opacity="0.6"/>
 
       <!-- XP bar fill -->
       <rect x="200" y="414" width="0" height="10" rx="5" fill="url(#xpGrad)" filter="url(#barGlow)">
-        <animate attributeName="width" from="0" to="317.9" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
+        <animate attributeName="width" from="0" to="{{XP_BAR_WIDTH}}" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
       </rect>
 
       <!-- Glowing progress indicator dot -->
       <circle cx="200" cy="419" r="0" fill="#FBBF24" filter="url(#softGlow)">
         <animate attributeName="r" from="0" to="5" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
-        <animate attributeName="cx" from="200" to="517.9" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
+        <animate attributeName="cx" from="200" to="{{XP_DOT_X}}" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
       </circle>
 
       <!-- Glowing percentage indicator -->
       <text x="442.76" y="405" class="pctText" text-anchor="middle" opacity="0">
-        55%
+        {{XP_PERCENT}}%
         <set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>
       </text>
     </g>

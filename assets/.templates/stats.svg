@@ -177,7 +177,7 @@
 
     <!-- ===================== HEADER ===================== -->
     <text x="52" y="66" class="header-title">GitHub Statistics</text>
-    <text x="52" y="86" class="header-sub">Sachin-Kushwaha22</text>
+    <text x="52" y="86" class="header-sub">{{USERNAME}}</text>
 
     <!-- ===================== CONTRIBUTION RING ===================== -->
     <g transform="translate(760,130)">
@@ -218,11 +218,11 @@
           <animate attributeName="opacity" values="0;1" dur="0.12s" begin="1.7s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.12s" begin="2.1s" fill="freeze"/>
         </text> -->
-        <text class="ring-score" x="0" y="8" opacity="0">20
+        <text class="ring-score" x="0" y="8" opacity="0">{{RING_VALUE}}
           <animate attributeName="opacity" values="0;1" dur="0.12s" begin="2.1s" fill="freeze"/>
         </text>
       </g>
-      <text class="ring-label" x="0" y="30" text-anchor="middle" letter-spacing="1">PUBLIC REPOS</text>
+      <text class="ring-label" x="0" y="30" text-anchor="middle" letter-spacing="1">{{RING_LABEL}}</text>
     </g>
 
     <!-- ===================== STAT ROWS ===================== -->
@@ -254,7 +254,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.86s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.04s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="166" opacity="0">20
+        <text class="row-value" x="790" y="166" opacity="0">{{REPOSITORIES}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.04s" fill="freeze"/>
         </text>
       </g>
@@ -285,7 +285,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.11s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.29s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="210" opacity="0">9
+        <text class="row-value" x="790" y="210" opacity="0">{{FOLLOWERS}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.29s" fill="freeze"/>
         </text>
       </g>
@@ -316,7 +316,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.36s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.54s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="254" opacity="0">5
+        <text class="row-value" x="790" y="254" opacity="0">{{FOLLOWING}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.54s" fill="freeze"/>
         </text>
       </g>
@@ -347,7 +347,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.61s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.79s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="298" opacity="0">0
+        <text class="row-value" x="790" y="298" opacity="0">{{STARS}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.79s" fill="freeze"/>
         </text>
       </g>
@@ -378,7 +378,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.86s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="3.04s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="342" opacity="0">23
+        <text class="row-value" x="790" y="342" opacity="0">{{PULL_REQUESTS}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.04s" fill="freeze"/>
         </text>
       </g>
@@ -409,7 +409,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.11s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="3.29s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="386" opacity="0">0
+        <text class="row-value" x="790" y="386" opacity="0">{{ISSUES}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.29s" fill="freeze"/>
         </text>
       </g>
@@ -440,7 +440,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.36s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="3.54s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="430" opacity="0">--
+        <text class="row-value" x="790" y="430" opacity="0">{{PROFILE_VIEWS}}
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.54s" fill="freeze"/>
         </text>
       </g>
