@@ -99,19 +99,6 @@ I'm a **Full Stack Developer** based in Gorakhpur, Uttar Pradesh, India, focused
 
 <br>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sachin-kushwaha22&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0e1b2e&title_color=5f85b8&icon_color=5f85b8&text_color=eef3fb&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=sachin-kushwaha22&theme=tokyonight&hide_border=true&background=0e1b2e&ring=5f85b8&fire=5f85b8&currStreakLabel=eef3fb" alt="GitHub Streak"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachin-kushwaha22&layout=compact&theme=tokyonight&hide_border=true&bg_color=0e1b2e&title_color=5f85b8&text_color=eef3fb" alt="Top Languages" height="165"/>
-
-</div>
-
-<br>
-
 ## 🚀 Featured Projects
 
 <table align="center" width="100%">
@@ -183,12 +170,6 @@ I'm a **Full Stack Developer** based in Gorakhpur, Uttar Pradesh, India, focused
 </div>
 
 <br>
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sachin-kushwaha22&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies"/>
-</div>
 
 <br>
 
