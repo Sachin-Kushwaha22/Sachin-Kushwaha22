@@ -1,0 +1,54 @@
+<svg width="1600" height="230" viewBox="0 0 1600 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blendBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#eef3fb"/>
+      <stop offset="35%" stop-color="#cfe0f2"/>
+      <stop offset="65%" stop-color="#5f85b8"/>
+      <stop offset="100%" stop-color="#0e1b2e"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background blend -->
+  <rect x="0" y="0" width="1600" height="230" fill="url(#blendBg)"/>
+  <rect x="0" y="0" width="1600" height="230" fill="url(#glow)"/>
+
+  <!-- subtle dot pattern echoing the hero section -->
+  <g fill="#5b7fae" opacity="0.35">
+    <circle cx="80"  cy="30"  r="2.4"/>
+    <circle cx="150" cy="70"  r="1.8"/>
+    <circle cx="40"  cy="110" r="2"/>
+    <circle cx="230" cy="40"  r="1.6"/>
+    <circle cx="1520" cy="35" r="2.2"/>
+    <circle cx="1460" cy="90" r="1.8"/>
+    <circle cx="1560" cy="130" r="2"/>
+    <circle cx="1380" cy="55" r="1.6"/>
+  </g>
+  <g fill="#9fd8ff" opacity="0.25">
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="1500" cy="190" r="2"/>
+    <circle cx="60" cy="200" r="1.6"/>
+    <circle cx="1550" cy="60" r="1.6"/>
+  </g>
+
+  <!-- thin divider line, fading with the blend -->
+  <line x1="470" y1="115" x2="1130" y2="115" stroke="#0e1b2e" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Line 1: sits in the lighter upper area -->
+  <text x="800" y="88" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700"
+        fill="#16243a">
+    Hey, I'm Sachin Kushwaha 👋
+  </text>
+
+  <!-- Line 2: sits in the darker lower area -->
+  <text x="800" y="160" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="500"
+        fill="#eaf2fb">
+    Full Stack Developer crafting clean, scalable, and thoughtful software
+  </text>
+</svg>
