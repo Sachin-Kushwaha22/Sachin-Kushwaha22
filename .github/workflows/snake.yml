@@ -1,0 +1,48 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "43 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate light and dark snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ secrets.PROFILE_USERNAME }}
+          github_token: ${{ secrets.PROFILE_GITHUB_TOKEN }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg?palette=github-light
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated snake
+        shell: bash
+        run: |
+          git add assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg
+
+          if git diff --cached --quiet; then
+            echo "No snake changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update contribution snake"
+          git push
