@@ -10,13 +10,13 @@
 
 <br>
 
-<div align="center">
+<!-- <div align="center">
 
 # Hey, I'm Sachin Kushwaha 👋
 
 ### Full Stack Developer crafting clean, scalable, and thoughtful software
 
-</div>
+</div> -->
 
 
 <table width="100%">
