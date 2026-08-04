@@ -8,34 +8,24 @@
 
 </div>
 
-<!-- <br> -->
-
-<div align="center">
-    <img src="./assets/intro-blend-banner.svg" alt="Intro Badge" width="100%">
-</div>
 <div align="center">
     <img src="./assets/lanyard.svg" alt="Developer Badge" width="100%">
 </div>
 
+<div align="center">
+  <img src="./assets/langs.svg" alt="Most Used Languages" width="100%">
+</div>
+<div align="center">
+  <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
+</div>
 
-<!-- <table width="100%">
-  <tr>
-    <td width="35%" rowspan="2" valign="top" align="center">
-    </td>
-    <td width="65%" align="center" valign="top">
-      <img src="./assets/langs.svg" alt="Most Used Languages" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
-    </td>
-  </tr>
-</table>
+<br>
 
-<br> -->
+<div align="center">
+  <img src="./assets/achievements.svg" alt="Achievements" width="100%">
+</div>
 
----
+<br>
 
 <h2 align="center">About Me</h2>
 
@@ -95,24 +85,7 @@ Currently exploring the intersection of applied AI and modern app development.
 
 ---
 
-<h2 align="center">Developer Dashboard</h2>
 
-<div align="center">
-  <img src="./assets/langs.svg" alt="Most Used Languages" width="100%">
-</div>
-<div align="center">
-  <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/achievements.svg" alt="Achievements" width="100%">
-</div>
-
-<br>
-
----
 
 <h2 align="center">Featured Projects</h2>
 
