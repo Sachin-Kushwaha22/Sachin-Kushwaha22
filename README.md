@@ -18,10 +18,10 @@
 
 </div>
 
-<br>
 
 <div align="center">
-  <img src="./assets/lanyard.svg" alt="Developer Badge" width="260">
+  <img src="./assets/lanyard.svg" alt="Developer Badge" width="40%">
+  <img src="./assets/langs.svg" alt="Most Used Languages" width="60%">
 </div>
 
 <br>
@@ -95,8 +95,8 @@ Currently exploring the intersection of applied AI and modern app development.
 <br>
 
 <div align="center">
-  <img src="./assets/langs.svg" alt="Most Used Languages" width="49%">
-  <img src="./assets/achievements.svg" alt="Achievements" width="49%">
+  
+  <img src="./assets/achievements.svg" alt="Achievements" width="100%">
 </div>
 
 <br>
