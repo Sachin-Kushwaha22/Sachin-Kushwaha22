@@ -32,7 +32,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=Sachin-Kushwaha22&style=for-the-badge&color=0e1b2e&labelColor=5f85b8" alt="Profile Views">
 <a href="https://github.com/Sachin-Kushwaha22?tab=followers"><img src="https://img.shields.io/github/followers/Sachin-Kushwaha22?style=for-the-badge&color=0e1b2e&labelColor=5f85b8&label=Followers" alt="Followers"></a>
-<a href="mailto:sachin2219n@example.com"><img src="https://img.shields.io/badge/Say_Hi-0e1b2e?style=for-the-badge&logo=gmail&logoColor=white" alt="Say Hi"></a>
+<a href="mailto:sachin2219n@gmail.com"><img src="https://img.shields.io/badge/Say_Hi-0e1b2e?style=for-the-badge&logo=gmail&logoColor=white" alt="Say Hi"></a>
 
 </div>
 
@@ -199,7 +199,7 @@ I'm a **Full Stack Developer** based in Gorakhpur, Uttar Pradesh, India, focused
 <a href="https://instagram.com/iamsa.chin2">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
 </a>
-<a href="mailto:sachin2219n@example.com">
+<a href="mailto:sachin2219n@gmail.com">
   <img src="https://img.shields.io/badge/Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
