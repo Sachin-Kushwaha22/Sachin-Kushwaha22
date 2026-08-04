@@ -21,11 +21,16 @@
 
 <table width="100%">
   <tr>
-    <td width="30%" valign="top" align="center">
-      <img src="./assets/lanyard.svg" width="100%">
+    <td width="35%" rowspan="2" valign="top" align="center">
+      <img src="./assets/lanyard.svg" alt="Developer Badge" width="100%">
     </td>
-    <td width="70%" valign="top" align="center">
-      <img src="./assets/langs.svg" width="100%">
+    <td width="65%" align="center" valign="top">
+      <img src="./assets/langs.svg" alt="Most Used Languages" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
     </td>
   </tr>
 </table>
