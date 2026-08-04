@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
-  <img alt="Banner" src="./banner.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img alt="Banner" src="./assets/banner.svg" width="100%">
 </picture>
 
 </div>
@@ -21,7 +21,7 @@
 <br>
 
 <div align="center">
-  <img src="./lanyard.svg" alt="Developer Badge" width="260">
+  <img src="./assets/lanyard.svg" alt="Developer Badge" width="260">
 </div>
 
 <br>
@@ -89,14 +89,14 @@ Currently exploring the intersection of applied AI and modern app development.
 <h2 align="center">Developer Dashboard</h2>
 
 <div align="center">
-  <img src="./stats.svg" alt="GitHub Statistics" width="100%">
+  <img src="./assets/stats.svg" alt="GitHub Statistics" width="100%">
 </div>
 
 <br>
 
 <div align="center">
-  <img src="./langs.svg" alt="Most Used Languages" width="49%">
-  <img src="./achievements.svg" alt="Achievements" width="49%">
+  <img src="./assets/langs.svg" alt="Most Used Languages" width="49%">
+  <img src="./assets/achievements.svg" alt="Achievements" width="49%">
 </div>
 
 <br>
@@ -208,7 +208,11 @@ Currently exploring the intersection of applied AI and modern app development.
 <h2 align="center">Contribution Snake</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sachin-kushwaha22/sachin-kushwaha22/output/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
+    <img src="./assets/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" width="100%">
+  </picture>
 </div>
 
 <br>
