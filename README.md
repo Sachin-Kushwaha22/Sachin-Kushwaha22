@@ -30,9 +30,9 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=sachin-kushwaha22&style=for-the-badge&color=0e1b2e&labelColor=5f85b8" alt="Profile Views">
-<a href="https://github.com/sachin-kushwaha22?tab=followers"><img src="https://img.shields.io/github/followers/sachin-kushwaha22?style=for-the-badge&color=0e1b2e&labelColor=5f85b8&label=Followers" alt="Followers"></a>
-<a href="mailto:sachin.kushwaha@example.com"><img src="https://img.shields.io/badge/Say_Hi-0e1b2e?style=for-the-badge&logo=gmail&logoColor=white" alt="Say Hi"></a>
+<img src="https://komarev.com/ghpvc/?username=Sachin-Kushwaha22&style=for-the-badge&color=0e1b2e&labelColor=5f85b8" alt="Profile Views">
+<a href="https://github.com/Sachin-Kushwaha22?tab=followers"><img src="https://img.shields.io/github/followers/Sachin-Kushwaha22?style=for-the-badge&color=0e1b2e&labelColor=5f85b8&label=Followers" alt="Followers"></a>
+<a href="mailto:sachin2219n@example.com"><img src="https://img.shields.io/badge/Say_Hi-0e1b2e?style=for-the-badge&logo=gmail&logoColor=white" alt="Say Hi"></a>
 
 </div>
 
@@ -190,10 +190,10 @@ I'm a **Full Stack Developer** based in Gorakhpur, Uttar Pradesh, India, focused
 <a href="https://github.com/Sachin-Kushwaha22">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
-<a href="#">
+<a href="https://www.linkedin.com/in/sachin-kushwaha-245055258/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="#">
+<a href="https://leetcode.com/u/sachin22leetcode/">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
 </a>
 <a href="https://instagram.com/iamsa.chin2">
