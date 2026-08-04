@@ -10,13 +10,9 @@
 
 <!-- <br> -->
 
-<!-- <div align="center">
-
-# Hey, I'm Sachin Kushwaha 👋
-
-### Full Stack Developer crafting clean, scalable, and thoughtful software
-
-</div> -->
+<div align="center">
+    <img src="./assets/intro-blend-banner.svg" alt="Intro Badge" width="100%">
+</div>
 
 
 <table width="100%">
