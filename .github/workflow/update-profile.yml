@@ -35,7 +35,7 @@ jobs:
 
       - name: Update SVG assets
         env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_USERNAME: ${{ secrets.PROFILE_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.PROFILE_GITHUB_TOKEN }}
         run: python main.py
 
