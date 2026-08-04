@@ -171,16 +171,6 @@ I'm a **Full Stack Developer** based in Gorakhpur, Uttar Pradesh, India, focused
 
 <br>
 
-<br>
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sachin-kushwaha22&theme=tokyo-night&hide_border=true&bg_color=0e1b2e&color=eef3fb&line=5f85b8&point=ffffff" width="100%"/>
-</div>
-
-<br>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
