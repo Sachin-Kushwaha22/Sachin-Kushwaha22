@@ -143,7 +143,7 @@
       <rect x="60" y="256" width="740" height="32" rx="10" fill="#0F172A" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.15"/>
       <text x="82" y="278" class="icon">🤝</text>
       <text x="112" y="278" class="label">Pull Requests</text>
-      <text x="778" y="278" class="value" text-anchor="end" fill="#60A5FA" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.49s;">23</text>
+      <text x="778" y="278" class="value" text-anchor="end" fill="#60A5FA" opacity="0" style="animation:popIn 0.5s ease-out forwards; animation-delay:1.49s;">25</text>
     </g>
 
     <!-- Followers -->
@@ -178,25 +178,25 @@
 
       <!-- XP labels -->
       <text x="200" y="405" class="stackLabel">XP PROGRESS</text>
-      <text x="778" y="407" class="xpText" text-anchor="end">550 / 1000 XP</text>
+      <text x="778" y="407" class="xpText" text-anchor="end">580 / 1000 XP</text>
 
       <!-- XP bar track -->
       <rect x="200" y="414" width="578" height="10" rx="5" fill="#0F172A" fill-opacity="0.6"/>
 
       <!-- XP bar fill -->
       <rect x="200" y="414" width="0" height="10" rx="5" fill="url(#xpGrad)" filter="url(#barGlow)">
-        <animate attributeName="width" from="0" to="317.9" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
+        <animate attributeName="width" from="0" to="335.24" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
       </rect>
 
       <!-- Glowing progress indicator dot -->
       <circle cx="200" cy="419" r="0" fill="#FBBF24" filter="url(#softGlow)">
         <animate attributeName="r" from="0" to="5" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
-        <animate attributeName="cx" from="200" to="517.9" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
+        <animate attributeName="cx" from="200" to="535.24" begin="2.2s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1"/>
       </circle>
 
       <!-- Glowing percentage indicator -->
       <text x="442.76" y="405" class="pctText" text-anchor="middle" opacity="0">
-        55%
+        58%
         <set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>
       </text>
     </g>
