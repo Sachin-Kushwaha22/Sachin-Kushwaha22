@@ -347,7 +347,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.61s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.79s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="298" opacity="0">0
+        <text class="row-value" x="790" y="298" opacity="0">1
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.79s" fill="freeze"/>
         </text>
       </g>
