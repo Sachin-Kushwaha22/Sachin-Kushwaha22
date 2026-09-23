@@ -285,7 +285,7 @@
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.11s" fill="freeze"/>
           <animate attributeName="opacity" values="1;0" dur="0.1s" begin="2.29s" fill="freeze"/>
         </text> -->
-        <text class="row-value" x="790" y="210" opacity="0">9
+        <text class="row-value" x="790" y="210" opacity="0">10
           <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.29s" fill="freeze"/>
         </text>
       </g>
